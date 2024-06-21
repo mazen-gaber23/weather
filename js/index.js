@@ -5,7 +5,7 @@ async function getApi(location = '07112') {
     gps = response;
     displayDays();
     displayCity();
-    console.log(response);;
+    
 }
 
 function displayDays() {
