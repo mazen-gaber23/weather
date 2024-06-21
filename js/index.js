@@ -1,6 +1,6 @@
 let gps = [];
 async function getApi(location = '07112') {
-    let myData = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=8670091aa47e45be82e152958242006&q=${location}&days=3`);
+    let myData = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=8670091aa47e45be82e152958242006&q=${location}&days=3`);
     let response = await myData.json();
     gps = response;
     displayDays();
