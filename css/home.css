@@ -1,0 +1,52 @@
+.links a{
+    border:solid 3px transparent; 
+    border-radius: 25%;
+    transition: all 0.5s;
+}
+.links a:hover{
+    color: #009ad8!important;
+    border:solid 3px #009ad8 !important;
+
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: transparent;
+    
+}
+input::placeholder{
+    color: rgb(104, 105, 105)!important;
+}
+ input{
+    height: 55px;
+}
+.back1{
+    background-image: url('../imgs/banner.png');
+    background-repeat: no-repeat;
+}
+.back2{
+    background-color:#262936;
+}
+.sub{
+   position: absolute;
+  right: 0;
+border: none;
+background-color: #009ad8;
+}
+.icons i{
+    width:50px ;
+    height: 50px;
+    transition: all 1s;
+    color: #009ad8;
+}
+.icons i:hover{
+    color: white!important;
+    background-color: #009ad8!important;
+}
+nav i{
+    color: #009ad8;
+}
+.deg{
+    font-size: 70px;
+}
+
+
